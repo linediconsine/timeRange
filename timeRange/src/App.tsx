@@ -5,7 +5,7 @@ function App() {
   const ranges = [
     { start: 0, end: 2 },
     { start: 100, end: 150 },
-    { start: 20, end: 25 },
+    { start: 20, end: 25 , class: 'loading'},
     { start: 25, end: 30 },
   ]
   return (
