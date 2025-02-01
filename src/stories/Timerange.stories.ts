@@ -1,9 +1,11 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import  TimeRange  from '../components/TimeRange';
+import TimeRange from '../TimeRange';
+import type { TimeRangeProps } from '../TimeRange';
+
 
 // More on how to set up stories at: https://storybook.js.org/docs/writing-stories#default-export
-const meta = {
+const meta: Meta<TimeRangeProps> = {
   title: 'Example/TimeRange',
   component: TimeRange,
   parameters: {

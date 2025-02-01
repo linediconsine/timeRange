@@ -1,4 +1,4 @@
-import TimeRange from './components/TimeRange/TimeRange'
+import TimeRange from './TimeRange/TimeRange'
 import './App.css'
 
 function App() {
